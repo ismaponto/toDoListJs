@@ -21,37 +21,37 @@ Installation
 Clone the repository:
 bash
  
-git clone https://github.com/your-username/todo-list-app.git
-cd todo-list-app
+```git clone https://github.com/your-username/todo-list-app.git
+cd todo-list-app```
 Install dependencies for both frontend and backend:
 bash
  
-cd client
+```cd client
 npm install
 cd ../server
-npm install
+npm install```
 Set up the database: [Instructions for setting up the SQL database]
 
 Create a .env file in the server folder and add the required environment variables:
 
 makefile
- 
+``` 
 DB_HOST=your_database_host
 DB_USER=your_database_username
 DB_PASSWORD=your_database_password
 DB_NAME=your_database_name
-SESSION_SECRET=your_session_secret
+SESSION_SECRET=your_session_secret```
 Usage
 Start the server:
 bash
- 
+``` 
 cd server
-npm start
+npm start```
 Start the frontend:
-bash
+bash```
  
 cd client
-npm start
+npm start```
 The frontend will run on http://localhost:3000 and the server will run on http://localhost:5000.
 
 Technologies
@@ -128,10 +128,9 @@ The application includes comprehensive tests for models and routes using Jest. T
 
 To run tests:
 
-bash
- 
+ ```
 cd server
-npm test
+npm test```
 Contributing
 Contributions to the project are welcome! If you find a bug or want to add new features, feel free to open an issue or submit a pull request.
 
